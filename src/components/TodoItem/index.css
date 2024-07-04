@@ -1,0 +1,35 @@
+.todo-item-container {
+  display: flex;
+  align-items: center;
+  padding: 10px;
+  border-bottom: 1px solid #ccc;
+}
+
+.checkbox-input {
+  margin-right: 10px;
+}
+
+.checkbox-label {
+  cursor: pointer;
+}
+
+.checked {
+  text-decoration: line-through;
+  color: #ccc;
+}
+
+.delete-icon-container {
+  margin-left: auto; /* Push delete button to the end */
+}
+
+.delete-button {
+  background-color: #f44336; /* Red color */
+  color: white;
+  border: none;
+  padding: 5px 10px;
+  cursor: pointer;
+}
+
+.delete-button:hover {
+  background-color: #cc0000; /* Darker red on hover */
+}
